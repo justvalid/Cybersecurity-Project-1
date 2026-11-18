@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "total_packets": 150,
+    "total_bytes": 6000,
+    "unique_src_ips": 1,
+    "unique_dst_ips": 1
+  },
+  "alerts": [
+    {
+      "id": 1,
+      "timestamp": 1794969106.4908774,
+      "rule_name": "HIGH_PACKET_RATE",
+      "severity": "High",
+      "src_ip": "10.0.0.66",
+      "dst_ip": "multiple",
+      "message": "Sent 150 pkts in 10s",
+      "packet_count": 150,
+      "window_seconds": 10
+    }
+  ]
+}
